@@ -1,0 +1,9 @@
+Graph {graphNodes = [Node 1, Node 2, Node 3, Node 4, Node 5], 
+       graphEdges = [Edge (Node 1, Node 2), 
+                     Edge (Node 2, Node 3), 
+                     Edge (Node 2, Node 4), 
+                     Edge (Node 3, Node 5), 
+                     Edge (Node 4, Node 5), 
+                     Edge (Node 1, Node 5)
+                    ]
+      }

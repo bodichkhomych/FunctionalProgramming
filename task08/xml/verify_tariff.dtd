@@ -1,0 +1,28 @@
+<?xml encoding="UTF-8"?>
+<!ELEMENT tariffs (tariff+)>
+
+<!ELEMENT tariff (name, operator-name,payroll, call-prices,sms-price, parameters)>
+
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT operator-name (#PCDATA)>
+
+<!ELEMENT payroll (#PCDATA)>
+
+<!ELEMENT call-prices (inner,other-operators,landline)>
+
+<!ELEMENT sms-price (#PCDATA)>
+
+<!ELEMENT parameters (connection-cost,favorite-number)>
+
+<!ELEMENT inner (#PCDATA)>
+
+<!ELEMENT other-operators (#PCDATA)>
+
+<!ELEMENT landline (#PCDATA)>
+
+<!ELEMENT connection-cost (#PCDATA)>
+
+<!ELEMENT favorite-number (#PCDATA)>
+
+<!--<!ATTLIST имя-элемента имя-атрибута тип-атрибута #REQUIRED|#FIXED value|#IMPLIED>-->
